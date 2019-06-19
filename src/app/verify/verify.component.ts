@@ -21,6 +21,8 @@ export class VerifyComponent implements OnInit {
     script.onload = () => {
 
       /* Verify with Digital iD */
+      
+      // @ts-ignore
       window.digitalId.init({
         clientId: '[YOUR CLIENT ID]',
         uxMode: 'popup',
